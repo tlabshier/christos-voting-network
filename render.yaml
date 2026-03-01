@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: christos-voting-network
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: CLAUDE_API_KEY
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
