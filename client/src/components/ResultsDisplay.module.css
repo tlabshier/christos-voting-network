@@ -1,0 +1,249 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 8px 24px;
+  border-radius: 24px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: white;
+  background: var(--primary);
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+
+.cardLabel {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.scoreRow {
+  margin-bottom: 14px;
+}
+
+.scoreRowLast {
+  margin-bottom: 0;
+}
+
+.scoreHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.scoreTradition {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.scoreNumber {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.scoreBar {
+  flex: 1;
+  height: 10px;
+  background: var(--bg);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.scoreFill {
+  height: 100%;
+  border-radius: 5px;
+  transition: width 1s ease-out;
+}
+
+.scoreBrief {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+  line-height: 1.5;
+}
+
+.groupHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 14px;
+  user-select: none;
+}
+
+.groupHeaderClosed {
+  composes: groupHeader;
+}
+
+.groupTitle {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.groupToggle {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.summary {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text);
+}
+
+.reflectionCard {
+  background: linear-gradient(135deg, rgba(26, 54, 93, 0.04), rgba(212, 168, 67, 0.06));
+  border-radius: var(--radius);
+  padding: 20px;
+  border: 1px solid rgba(212, 168, 67, 0.2);
+}
+
+.reflectionSource {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.reflectionText {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text);
+  font-style: italic;
+}
+
+.positionNote {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  padding: 12px 0;
+}
+
+.spacer {
+  height: 16px;
+}
+
+.reflectionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Biblical alignment score */
+.biblicalScore {
+  text-align: center;
+  padding: 16px;
+  background: linear-gradient(135deg, rgba(26, 54, 93, 0.04), rgba(212, 168, 67, 0.06));
+  border-radius: var(--radius);
+  border: 1px solid rgba(212, 168, 67, 0.2);
+}
+
+.biblicalScoreNumber {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.biblicalScoreLabel {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+
+/* New analysis sections */
+.sectionCard {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+
+.sectionLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.bulletList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bulletItem {
+  position: relative;
+  padding-left: 16px;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.bulletItem::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.tensionItem::before {
+  color: var(--warning);
+}
+
+.questionItem {
+  font-style: italic;
+}
+
+.questionItem::before {
+  content: '?';
+  font-style: normal;
+  color: var(--accent);
+}
+
+.touchpointItem::before {
+  content: '✝';
+  font-size: 0.7rem;
+  color: var(--accent);
+}

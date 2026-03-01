@@ -1,0 +1,263 @@
+.wrapper {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 24px;
+  border: 1px solid var(--border);
+  margin-top: 20px;
+}
+
+.sectionTitle {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.axisGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.axisRow {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.axisLabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.axisName {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.axisValue {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--primary);
+  min-width: 24px;
+  text-align: right;
+}
+
+.axisSlider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  background: var(--border);
+}
+
+.axisSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--primary);
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.axisSlider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--primary);
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.axisHint {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.axisEndpoints {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  margin-top: -2px;
+}
+
+/* Framework selection */
+.frameworkGroup {
+  margin-bottom: 24px;
+}
+
+.frameworkLabel {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 10px;
+  display: block;
+}
+
+.frameworkOptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.frameworkOption {
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.frameworkOption:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.frameworkSelected {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.frameworkSelected:hover {
+  background: var(--primary-light);
+  color: white;
+}
+
+/* Custom questions */
+.customQuestionsSection {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.customQuestion {
+  margin-bottom: 18px;
+}
+
+.customQuestionText {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.customOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.customOption {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
+.customOption:hover {
+  border-color: var(--primary);
+  background: rgba(43, 108, 176, 0.04);
+}
+
+.customOptionSelected {
+  border-color: var(--primary);
+  background: rgba(43, 108, 176, 0.08);
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.customRadio {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.customRadioSelected {
+  border-color: var(--primary);
+}
+
+.customRadioDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--primary);
+}
+
+.loadingQuestions {
+  text-align: center;
+  padding: 16px;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.loadingSpinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--border);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 16px;
+  }
+
+  .frameworkOptions {
+    gap: 6px;
+  }
+
+  .frameworkOption {
+    padding: 6px 12px;
+    font-size: 0.78rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .frameworkOptions {
+    flex-direction: column;
+  }
+
+  .frameworkOption {
+    text-align: center;
+  }
+}

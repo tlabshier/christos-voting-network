@@ -1,0 +1,159 @@
+:root {
+  --primary: #1a365d;
+  --primary-light: #2b6cb0;
+  --primary-dark: #0f2440;
+  --accent: #d4a843;
+  --accent-light: #e8c96a;
+  --bg: #f7f5f0;
+  --bg-card: #ffffff;
+  --text: #1a202c;
+  --text-muted: #718096;
+  --border: #e2e0db;
+  --success: #38a169;
+  --warning: #d69e2e;
+  --error: #e53e3e;
+  --radius: 12px;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', Georgia, serif;
+  line-height: 1.3;
+}
+
+a {
+  color: var(--primary-light);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ========================================
+   MOBILE RESPONSIVE STYLES
+   ======================================== */
+
+/* Tablets and below */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  /* WorldviewProfile bar rows: stack label above bar */
+  .wp-bar-row {
+    flex-wrap: wrap !important;
+  }
+
+  .wp-bar-label {
+    min-width: 100% !important;
+    margin-bottom: 4px !important;
+  }
+
+  /* Admin form rows: stack on tablet */
+  .form-row {
+    flex-direction: column !important;
+  }
+
+  /* Results actions: wrap */
+  .results-actions {
+    flex-wrap: wrap !important;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  body {
+    font-size: 15px;
+  }
+
+  .container {
+    padding: 0 12px;
+  }
+
+  /* Header: smaller logo, tighter padding */
+  .layout-header-inner {
+    padding: 0 12px !important;
+  }
+
+  .layout-logo {
+    font-size: 1.05rem !important;
+  }
+
+  .layout-nav {
+    gap: 12px !important;
+  }
+
+  .layout-nav a {
+    font-size: 0.8rem !important;
+  }
+
+  /* Cards: less padding */
+  .results-card {
+    padding: 16px !important;
+  }
+
+  /* WorldviewProfile: smaller padding */
+  .worldview-profile {
+    padding: 20px 16px !important;
+  }
+
+  /* Binary vote: stack options vertically */
+  .binary-options {
+    flex-direction: column !important;
+  }
+
+  /* Issue cards: less padding */
+  .issue-card {
+    padding: 16px !important;
+  }
+
+  /* Scale info in issue cards */
+  .scale-info {
+    flex-direction: column !important;
+    gap: 4px !important;
+    text-align: center !important;
+  }
+
+  /* Share button: full width */
+  .share-wrapper {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .share-wrapper button {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  /* Analysis progress: full width on mobile */
+  .analysis-progress-list {
+    max-width: 100% !important;
+  }
+}
