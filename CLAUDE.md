@@ -66,6 +66,7 @@ RM/
 ├── CHS_christos_home_school/            # Sub-project: Home School
 ├── CNL_christos_newsletter/             # Sub-project: Newsletter
 │   └── articles/                        # YYMMDD_slug.md
+├── CVN_christos_voting_network/         # Sub-project: Voting Network (OS doc — app in client/ + server/)
 ├── render.yaml                          # Render.com deployment blueprint
 ├── package.json                         # npm workspaces root (client + server)
 ├── .env.example                         # required env vars
@@ -89,7 +90,7 @@ All sub-project folders follow the `{CODE}_{snake_case_name}/` convention. Prese
 | CHR  | Christos Historical Review     | `CHR_christos_historical_review/`      |
 | CHS  | Christos Home School           | `CHS_christos_home_school/`            |
 | CNL  | Christos Newsletter            | `CNL_christos_newsletter/`             |
-| CVN  | Christos Voting Network        | `/client` + `/server` (the app itself) |
+| CVN  | Christos Voting Network        | `CVN_christos_voting_network/` (OS doc) + `/client` + `/server` (app) |
 
 When Thomas refers to a sub-project by its code, resolve to the directory above. When producing new sub-project content, match the existing naming convention exactly.
 

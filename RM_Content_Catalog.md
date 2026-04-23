@@ -306,9 +306,10 @@ Do not maintain a duplicate module list in this catalog. When producing or catal
 
 ### Voting Network (CVN) — actual implementation
 
-The Christos Voting Network is a live production application, not a specification document.
+The Christos Voting Network is a live production application with a sub-project operating-system folder alongside.
 
-- **Actual path:** `/client` + `/server` at repo root (React + Vite frontend, Express + SQLite backend, Claude API integration)
+- **OS doc path:** `CVN_christos_voting_network/CVN_operating_system.md` (provisional — currently restored developer-setup content from the original root README; pending rewrite as a full operating-system spec in the style of other sub-projects)
+- **App path:** `/client` + `/server` at repo root (React + Vite frontend, Express + SQLite backend, Claude API integration)
 - **Spec details:** see `CLAUDE.md` at repo root for technical overview; see `server/services/claudeService.js` and `server/utils/promptBuilder.js` for the worldview analysis implementation
 - **Source:** Thomas Abshier, 1986 vision + ongoing development
 - **Summary:** Public-facing projection of the Christos vision. Users vote on issues via sliding scales; Claude-generated worldview analyses return alignment across 11 traditions. Deployed on Render.

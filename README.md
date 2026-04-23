@@ -31,7 +31,7 @@ The Christos family currently comprises **17 modules** (6 in this repo, 11 spec-
 | CHR  | Christos Historical Review     | Christian and political history examined against Kingdom principles.      |
 | CHS  | Christos Home School           | Educational content and lecture processing.                               |
 | CNL  | Christos Newsletter            | Daily-issue newsletter with Summarize-Comment-Refer analyses.             |
-| CVN  | Christos Voting Network        | Slider-based worldview voting app (`/client` + `/server`).                |
+| CVN  | Christos Voting Network        | Slider-based worldview voting app (`CVN_christos_voting_network/` OS doc + `/client` + `/server` app). |
 
 **Eleven additional modules** — Seminar, Cross-Check, Logos, Commons, Group Leader, Counselor, Professional Module, Diagnostician, Medical Testimony, Life, Council — are spec-drafted or planned. See [`MODULES.md`](./MODULES.md) for full status.
 

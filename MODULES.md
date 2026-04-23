@@ -23,7 +23,7 @@ Every module — including planned ones — is intended to serve the same aim: m
 
 | Code | Name                               | Status         | Category                 | Purpose (one line)                                                           | Folder / path                          |
 |------|------------------------------------|----------------|--------------------------|------------------------------------------------------------------------------|----------------------------------------|
-| CVN  | Christos Voting Network            | App deployed   | Cultural engagement      | Spectrum-based worldview and bias assessment; voting + Claude analysis.      | `/client` + `/server`                  |
+| CVN  | Christos Voting Network            | App deployed   | Cultural engagement      | Spectrum-based worldview and bias assessment; voting + Claude analysis.      | `CVN_christos_voting_network/` (OS doc) + `/client` + `/server` (app) |
 | CNL  | Christos Newsletter                | In repo        | Cultural engagement      | Daily-issue newsletter with Summarize–Comment–Refer analyses.                | `CNL_christos_newsletter/`             |
 | CHR  | Christos Historical Review         | In repo        | Cultural engagement      | Christian and political history examined against Kingdom principles.         | `CHR_christos_historical_review/`      |
 | CCR  | Christos Conspiracy Review         | In repo        | Cultural engagement      | Rigorous examination of coordinated-influence claims (intentional + de facto). | `CCR_christos_conspiracy_review/`    |
@@ -49,7 +49,7 @@ Every module — including planned ones — is intended to serve the same aim: m
 
 - **Canonical name:** "Christos [Name]" — no hyphens in the English name. Exception: "Cross-Check" is written with a hyphen by convention.
 - **Folder name:** `{CODE}_{snake_case_name}/` where `{CODE}` is the three-letter code.
-- **Operating system file:** `{CODE}_operating_system.md` at the folder root. All six in-repo sub-projects follow this convention (CCR, CEA, CHR, CHS, CNL have `{CODE}_operating_system.md`; CVN is the app itself and has no OS file).
+- **Operating system file:** `{CODE}_operating_system.md` at the folder root. All six in-repo sub-projects follow this convention. CVN's OS doc (provisional — currently a restored developer-setup document pending rewrite as a full operating system) lives at `CVN_christos_voting_network/CVN_operating_system.md` alongside the live application at `/client` and `/server`.
 - **3-letter codes:** follow the existing CCR / CEA / CHR / CHS / CNL / CVN pattern. Codes for the eleven modules marked `TBD` above should be assigned by Thomas before their folders are created. Suggested (non-binding) — for discussion only:
 
   | Module                       | Suggested code |

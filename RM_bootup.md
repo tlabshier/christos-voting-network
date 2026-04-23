@@ -74,6 +74,7 @@ RM/
 ├── CHS_christos_home_school/          ← Sub-project: Home School
 ├── CNL_christos_newsletter/           ← Sub-project: Newsletter
 │   └── articles/                      ← YYMMDD_slug.md issues
+├── CVN_christos_voting_network/       ← Sub-project: Voting Network (OS doc)
 │
 ├── client/                            ← CVN frontend (React + Vite)
 ├── server/                            ← CVN backend (Express + SQLite)
