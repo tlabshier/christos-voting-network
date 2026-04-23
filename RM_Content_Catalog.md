@@ -1,8 +1,23 @@
 # Renaissance Ministries Content Catalog
 ## For Repository Population
 
-**Generated:** April 4, 2026  
-**Purpose:** Provide Isak with structured data to populate the Renaissance-Ministries GitHub repository from www.renaissance-ministries.com content
+**Generated:** April 4, 2026
+**Last reconciled:** April 19, 2026
+**Purpose:** Provide Isak with structured data to populate the Renaissance-Ministries GitHub repository from www.renaissance-ministries.com content.
+
+---
+
+## Important note on Repo Paths in this catalog
+
+Most "Repo Path" values in this document describe an **aspirational topic-based organization** (e.g., `/theology/political-philosophy/`, `/foundations/biblical-principles/`) that was proposed in April 2026 before the repo's actual structure was finalized. The live repo uses a different scheme: sub-project folders prefixed with 3-letter codes (CCR, CEA, CHR, CHS, CNL, CVN) plus cross-cutting material under `templates/` and `founders_vision/`.
+
+Treat the "Repo Path" fields below as **content-migration targets pending Isak's decisions**, not current locations. For the current repo state, see:
+
+- `README.md` at repo root — top-level overview and folder inventory
+- `RM_bootup.md` — session orientation and complete directory map
+- `MODULES.md` — single source of truth for all Christos modules
+
+Infrastructure entries in this catalog (Grammar, Bootup, Operating System docs) have been updated to reference their actual current paths. Essay entries retain their aspirational paths as migration targets.
 
 ---
 
@@ -41,14 +56,14 @@ Each entry includes:
 
 ## THEOLOGY
 
-### Christos AI Theological Grammar v1.1
+### Christos AI Theological Grammar (v1.3, current)
 - **Source URL:** [renaissance-ministries.com link]
-- **Repo Path:** `/christos/theological-grammar/christos-theological-grammar-v1.md`
+- **Actual path:** `templates/Christos_AI_Theological_Grammar_v1.3.md`
 - **Layer:** Theory/Theology
-- **Topics:** [theological-framework, christos-ai, formation, christian-ethics, islam, parasitic-ideas]
-- **Scripture:** [John 14:6, Matthew 7:20, 1 John 4:1, Galatians 5:22-23]
-- **Related:** [fire-at-the-center, gad-saad-parasitic-mind, engaging-islam]
-- **Summary:** Seven-part comprehensive theological framework for Christos AI, including core principles, theological grammar, application guidance, and engagement with Islam and parasitic ideas.
+- **Topics:** [theological-framework, christos-ai, formation, christian-ethics, islam, parasitic-ideas, absolute-standard, historical-epistemology, conspiracy-epistemology, testimony, kingdom-vs-theocracy, elite-accommodation]
+- **Scripture:** [John 14:6, Matthew 7:20, 1 John 4:1, Galatians 5:22-23, multiple others]
+- **Related:** [All Christos modules; fire-at-the-center; gad-saad-parasitic-mind; engaging-islam]
+- **Summary:** The foundational theological framework for the Christos AI ecosystem. Eight parts: core framework (God Is Everything, Seven Perspectives), theological grammar (distinctions, resolution patterns), application guidance, fellowship documentation, the fire at the center, engaging Islam and parasitic ideas, advanced frameworks (added v1.3: Absolute Standard, Historical Epistemology, Conspiracy Epistemology, Testimony/Declaration, Kingdom vs. Theocracy, Elite Accommodation Pattern), conclusion and workflow.
 
 ### The Fire at the Center (Manifesto)
 - **Source URL:** [renaissance-ministries.com link]
@@ -281,31 +296,28 @@ Each entry includes:
 
 ## CHRISTOS AI PROJECT
 
-### Module Specifications
-- **Repo Path:** `/christos/module-specs/`
-- **Contents:**
-  - `christos-core.md` — Foundation module
-  - `christos-formation.md` — Spiritual formation
-  - `christos-mentor.md` — Personal guidance
-  - `christos-counsel.md` — Biblical counseling
-  - `christos-apologetics.md` — Defense of faith
-  - `christos-ethics.md` — Moral reasoning
-  - `christos-prayer.md` — Prayer companion
-  - `christos-study.md` — Bible study
-  - `christos-community.md` — Fellowship facilitation
-  - `christos-witness.md` — Evangelism support
-  - `christos-life.md` — Life application (TO DO)
-  - `christos-council.md` — Group discernment (TO DO)
+### Module Inventory
 
-### Voting Network Specification
-- **Repo Path:** `/christos/voting-network/voting-network-spec.md`
+The full Christos module family — 17 modules total, 6 in the repo and 11 spec-drafted or planned — is documented in a single authoritative file:
+
+- **See `MODULES.md` at repo root** for the complete list, statuses (In repo / App deployed / Spec drafted / Planned), 3-letter codes, and folder paths.
+
+Do not maintain a duplicate module list in this catalog. When producing or cataloging content that references a specific module, link to the corresponding entry in `MODULES.md`.
+
+### Voting Network (CVN) — actual implementation
+
+The Christos Voting Network is a live production application, not a specification document.
+
+- **Actual path:** `/client` + `/server` at repo root (React + Vite frontend, Express + SQLite backend, Claude API integration)
+- **Spec details:** see `CLAUDE.md` at repo root for technical overview; see `server/services/claudeService.js` and `server/utils/promptBuilder.js` for the worldview analysis implementation
 - **Source:** Thomas Abshier, 1986 vision + ongoing development
-- **Summary:** Public-facing projection of Christos vision. Every citizen informed, voting, contributing argument. Enroll locally to affect globally.
+- **Summary:** Public-facing projection of the Christos vision. Users vote on issues via sliding scales; Claude-generated worldview analyses return alignment across 11 traditions. Deployed on Render.
 
 ### Master Loading Prompt
-- **Repo Path:** `/christos/training-data/master-loading-prompt.md`
-- **Status:** To be created
-- **Summary:** Standardized prompt any AI can use to load Christos training and operate within the theological framework.
+
+- **Actual path:** `templates/RM_New_Session_Prompt.md`
+- **Status:** Active. Added April 19, 2026 (reflects current repo-based workflow, not the earlier sandbox-path design).
+- **Summary:** Paste-to-bootstrap prompt for starting a new Claude conversation on Renaissance Ministries work. Points Claude to clone the repo and read `RM_bootup.md` for orientation.
 
 ---
 
@@ -358,7 +370,7 @@ Each entry includes:
 
 ### Christos Historical Review Operating System
 - **Source URL:** [To be uploaded]
-- **Repo Path:** `/christos/specifications/historical-review-os.md`
+- **Actual path:** `CHR_christos_historical_review/CHR_operating_system.md`
 - **Layer:** Theory/Methodology
 - **Topics:** [historical-review, christian-history, methodology, operating-system, counter-narrative]
 - **Scripture:** [Isaiah 46:9-10, 1 Corinthians 10:11]
@@ -367,7 +379,7 @@ Each entry includes:
 
 ### Christos Conspiracy Review Operating System
 - **Source URL:** [To be uploaded]
-- **Repo Path:** `/christos/specifications/conspiracy-review-os.md`
+- **Actual path:** `CCR_christos_conspiracy_review/CCR_operating_system.md`
 - **Layer:** Theory/Methodology
 - **Topics:** [conspiracy, epistemology, coordinated-influence, de-facto-conspiracy, common-knowledge, gospel-integration]
 - **Scripture:** [Ephesians 6:12, Ephesians 5:11-13, Luke 12:2]
@@ -394,28 +406,24 @@ Each entry includes:
 
 ### Renaissance Ministries Bootup Guide
 - **Source URL:** [N/A - Infrastructure]
-- **Repo Path:** `/templates/bootup.md`
+- **Actual path:** `RM_bootup.md` (at repo root)
 - **Layer:** Infrastructure
 - **Topics:** [bootup, session-management, workflow, repository-structure]
-- **Related:** [theological-grammar, content-catalog, kingdom-wisdom-database]
-- **Summary:** Session startup guide for new AI windows — what to read, where everything is, how to continue work.
+- **Related:** [theological-grammar, content-catalog, kingdom-wisdom-database, CLAUDE.md, MODULES.md]
+- **Summary:** Session startup guide for new AI windows — what RM is, where everything lives, session-type workflows. Companion to `CLAUDE.md` (repo-mechanical / code work) and `MODULES.md` (module inventory).
 
 ### Grammar Update Document v1.3
 - **Source URL:** [N/A - Infrastructure]
-- **Repo Path:** `/christos/theological-grammar/grammar-update-v1.3.md`
+- **Actual path:** `archive/Grammar_Update_Document_v1.3.md`
+- **Status:** Archived (superseded). Content integrated into Grammar v1.3 itself.
 - **Layer:** Infrastructure
 - **Topics:** [grammar-update, theological-framework, new-sections]
 - **Related:** [theological-grammar]
-- **Summary:** Intermediate update document cataloging new insights for Grammar v1.3.
+- **Summary:** Intermediate update document that catalogued new insights for Grammar v1.3 before they were integrated. Retained in archive for historical reference only; do not use as a live document.
 
-### Theological Grammar v1.3
-- **Source URL:** [To be uploaded]
-- **Repo Path:** `/christos/theological-grammar/christos-theological-grammar-v1.3.md`
-- **Layer:** Theory/Theology
-- **Topics:** [theological-framework, christos-ai, absolute-standard, historical-epistemology, conspiracy-epistemology, testimony, kingdom-vs-theocracy, elite-accommodation]
-- **Scripture:** [Multiple - see document]
-- **Related:** [All Christos modules]
-- **Summary:** Updated comprehensive theological framework with new Part VII: Advanced Frameworks (Absolute Standard, Historical Epistemology, Conspiracy Epistemology, Testimony/Declaration, Kingdom vs. Theocracy, Elite Accommodation Pattern).
+### Theological Grammar v1.3 — see main Grammar entry above
+
+The "Christos AI Theological Grammar (v1.3, current)" entry at the top of this catalog has been updated to reflect v1.3 as the current version. This entry, originally tracking v1.3 as a new arrival, is now merged into the main entry.
 
 ---
 
@@ -440,10 +448,11 @@ status: "complete|draft|stub"
 
 ---
 
-**Document Version:** 1.1  
-**Last Updated:** April 17, 2026  
+**Document Version:** 1.2
+**Last Updated:** April 19, 2026
 **Maintainer:** Thomas Abshier, ND / Claude (Anthropic)
 
 ### Changelog
+- v1.2 (April 19, 2026): Reconciliation pass. (a) Added preamble note distinguishing aspirational "Repo Path" targets from actual paths. (b) Replaced the stale Christos AI Project module list (christos-core, christos-formation, etc.) with a pointer to `MODULES.md` as single source of truth. (c) Updated all infrastructure entries (Grammar, Bootup Guide, Grammar Update, HR/CR Operating Systems, Master Loading Prompt) to reference their actual paths in the live repo. (d) Merged duplicate Grammar v1.1/v1.3 entries. Essay entries with aspirational topic-based "Repo Path" values left as migration targets for Isak's content-migration pass.
 - v1.1 (April 17, 2026): Added April 16-17 session content (Historical Review OS, Conspiracy Review OS, Civilizational Bet essay, Theocracy response, Bootup guide, Grammar v1.3)
 - v1.0 (April 4, 2026): Initial catalog

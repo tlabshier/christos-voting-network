@@ -62,7 +62,7 @@ RM/
 ├── archive/                             # Superseded documents kept for history
 ├── CCR_christos_conspiracy_review/      # Sub-project: Conspiracy Review
 ├── CEA_christos_economic_annex/         # Sub-project: Economic Annex
-├── CHR-christos_historical_review/      # Sub-project: Historical Review
+├── CHR_christos_historical_review/      # Sub-project: Historical Review
 ├── CHS_christos_home_school/            # Sub-project: Home School
 ├── CNL_christos_newsletter/             # Sub-project: Newsletter
 │   └── articles/                        # YYMMDD_slug.md
@@ -76,7 +76,7 @@ RM/
 └── CLAUDE.md                            # this file (repo-mechanical / code work)
 ```
 
-Note the CHR folder uses a hyphen (`CHR-christos_historical_review`) while the others use underscores. Preserve existing casing and separators when referencing paths; do not silently "normalize" them.
+All sub-project folders follow the `{CODE}_{snake_case_name}/` convention. Preserve existing casing and separators when referencing paths; do not silently "normalize" them.
 
 ---
 
@@ -86,7 +86,7 @@ Note the CHR folder uses a hyphen (`CHR-christos_historical_review`) while the o
 |------|--------------------------------|----------------------------------------|
 | CCR  | Christos Conspiracy Review     | `CCR_christos_conspiracy_review/`      |
 | CEA  | Christos Economic Annex        | `CEA_christos_economic_annex/`         |
-| CHR  | Christos Historical Review     | `CHR-christos_historical_review/`      |
+| CHR  | Christos Historical Review     | `CHR_christos_historical_review/`      |
 | CHS  | Christos Home School           | `CHS_christos_home_school/`            |
 | CNL  | Christos Newsletter            | `CNL_christos_newsletter/`             |
 | CVN  | Christos Voting Network        | `/client` + `/server` (the app itself) |
@@ -99,7 +99,7 @@ When Thomas refers to a sub-project by its code, resolve to the directory above.
 
 ## 5. Filename conventions
 
-- **Operating-system docs:** `{CODE}_operating_system.md` at the root of each sub-project folder (e.g., `CCR_operating_system.md`, `CEA_operating_system.md`). The exceptions are CHS (`CHS_lecture_processing_Operating_System.md`) and CHR (file lives under a nested `templates/` subfolder). Shared/cross-cutting operating-system docs live in `/templates/` — currently the Grammar, Kingdom Wisdom Database Vision, wisdom database OS, and newsletter OS.
+- **Operating-system docs:** `{CODE}_operating_system.md` at the root of each sub-project folder (e.g., `CCR_operating_system.md`, `CHR_operating_system.md`). Shared/cross-cutting operating-system docs live in `/templates/` — currently the Grammar, Kingdom Wisdom Database Vision, wisdom database OS, and newsletter OS.
 - **Newsletter articles:** `YYMMDD_slug.md` under `CNL_christos_newsletter/articles/` (e.g., `260416_25th_amendment_yates.md`). Six-digit date, lowercase slug, underscores.
 - **Seed archive entries:** `YYMMDD_topic_slug.md` under `founders_vision/` (e.g., `260419_seed_archive_establishment.md`). Same date/slug convention as newsletter articles.
 - **No version suffixes in filenames.** Mirror the CPP rule: the canonical filename stays fixed; version history is tracked in an internal CHANGELOG header inside the file, never as `_v1.1` in the filename. The Grammar file currently carries `_v1.3` as a known exception predating this convention; new files should not.

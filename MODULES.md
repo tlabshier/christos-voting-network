@@ -25,7 +25,7 @@ Every module — including planned ones — is intended to serve the same aim: m
 |------|------------------------------------|----------------|--------------------------|------------------------------------------------------------------------------|----------------------------------------|
 | CVN  | Christos Voting Network            | App deployed   | Cultural engagement      | Spectrum-based worldview and bias assessment; voting + Claude analysis.      | `/client` + `/server`                  |
 | CNL  | Christos Newsletter                | In repo        | Cultural engagement      | Daily-issue newsletter with Summarize–Comment–Refer analyses.                | `CNL_christos_newsletter/`             |
-| CHR  | Christos Historical Review         | In repo        | Cultural engagement      | Christian and political history examined against Kingdom principles.         | `CHR-christos_historical_review/` *(hyphen — under review)* |
+| CHR  | Christos Historical Review         | In repo        | Cultural engagement      | Christian and political history examined against Kingdom principles.         | `CHR_christos_historical_review/`      |
 | CCR  | Christos Conspiracy Review         | In repo        | Cultural engagement      | Rigorous examination of coordinated-influence claims (intentional + de facto). | `CCR_christos_conspiracy_review/`    |
 | CEA  | Christos Economic Annex            | In repo        | Cultural engagement      | Economic analysis through a Kingdom lens.                                    | `CEA_christos_economic_annex/`         |
 | CHS  | Christos Home School               | In repo        | Whole-life formation     | Educational content and lecture processing.                                  | `CHS_christos_home_school/`            |
@@ -48,10 +48,8 @@ Every module — including planned ones — is intended to serve the same aim: m
 ## Naming conventions for this inventory
 
 - **Canonical name:** "Christos [Name]" — no hyphens in the English name. Exception: "Cross-Check" is written with a hyphen by convention.
-- **Folder name:** `{CODE}_{snake_case_name}/` where `{CODE}` is the three-letter code. The CHR folder currently uses a hyphen (`CHR-christos_historical_review/`) — this is an exception under review and may be normalized.
-- **Operating system file:** `{CODE}_operating_system.md` at the folder root. Known deviations:
-  - CHS uses `CHS_lecture_processing_Operating_System.md` (scope-specific name, mixed-case "Operating_System").
-  - CHR currently nests the OS file under `CHR-christos_historical_review/templates/` rather than at folder root.
+- **Folder name:** `{CODE}_{snake_case_name}/` where `{CODE}` is the three-letter code.
+- **Operating system file:** `{CODE}_operating_system.md` at the folder root. All six in-repo sub-projects follow this convention (CCR, CEA, CHR, CHS, CNL have `{CODE}_operating_system.md`; CVN is the app itself and has no OS file).
 - **3-letter codes:** follow the existing CCR / CEA / CHR / CHS / CNL / CVN pattern. Codes for the eleven modules marked `TBD` above should be assigned by Thomas before their folders are created. Suggested (non-binding) — for discussion only:
 
   | Module                       | Suggested code |
@@ -83,10 +81,7 @@ The categories above are descriptive, not structural. They come from the Christo
 These should be resolved in a subsequent pass, not fixed in this document:
 
 1. **Counselor / MyCounselor relationship.** Is Christos Counselor the same thing as MyCounselor.com, or are they distinct? If distinct, which one lives in this repo?
-2. **Content Catalog inventory.** `RM_Content_Catalog.md` §CHRISTOS AI PROJECT lists a different 12-module set (christos-core, christos-formation, christos-mentor, christos-counsel, christos-apologetics, christos-ethics, christos-prayer, christos-study, christos-community, christos-witness, christos-life, christos-council). That list appears to be superseded by the current Seminar-spec-based list above but has not been updated. The Content Catalog needs reconciliation with this MODULES.md.
-3. **CHR folder normalization.** Hyphen → underscore; OS file promoted to folder root. Low-effort cleanup deferred by choice.
-4. **CHS OS filename normalization.** `CHS_lecture_processing_Operating_System.md` → `CHS_operating_system.md` (or keep scope-specific name). Thomas's call.
-5. **Ordering within this document.** Currently: in-repo first (by activity level), then spec-drafted (by category), then planned. Alternatives: alphabetical by code, alphabetical by name, or Seminar-ecosystem-map order. Thomas to decide.
+2. **Ordering within this document.** Currently: in-repo first (by activity level), then spec-drafted (by category), then planned. Alternatives: alphabetical by code, alphabetical by name, or Seminar-ecosystem-map order. Thomas to decide.
 
 ---
 

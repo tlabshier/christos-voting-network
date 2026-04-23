@@ -70,7 +70,7 @@ RM/
 │
 ├── CCR_christos_conspiracy_review/    ← Sub-project: Conspiracy Review
 ├── CEA_christos_economic_annex/       ← Sub-project: Economic Annex
-├── CHR-christos_historical_review/    ← Sub-project: Historical Review (note hyphen)
+├── CHR_christos_historical_review/    ← Sub-project: Historical Review
 ├── CHS_christos_home_school/          ← Sub-project: Home School
 ├── CNL_christos_newsletter/           ← Sub-project: Newsletter
 │   └── articles/                      ← YYMMDD_slug.md issues
@@ -81,7 +81,7 @@ RM/
 └── package.json                       ← npm workspaces root
 ```
 
-Each sub-project folder typically contains a `{CODE}_operating_system.md` at its root. CHR currently keeps its OS file in a `templates/` subfolder — this is an exception under review.
+Each sub-project folder contains a `{CODE}_operating_system.md` at its root.
 
 ---
 
@@ -194,14 +194,14 @@ Full treatment lives in the Grammar (`templates/Christos_AI_Theological_Grammar_
 - Fellowship essays: `Fellowship_Discussion_[Topic]_[Month][Year].md`.
 - Newsletter articles: `CNL_christos_newsletter/articles/YYMMDD_slug.md`.
 - Seed entries: `founders_vision/YYMMDD_topic_slug.md`.
-- Operating systems: `{CODE}_operating_system.md` at sub-project root (with documented exceptions).
+- Operating systems: `{CODE}_operating_system.md` at sub-project root.
 - **No version suffixes in filenames.** The canonical filename stays fixed; version history is tracked in an internal CHANGELOG header inside the file. The Grammar file currently carries `_v1.3` as a known exception predating this convention; new files should not.
 
 **Scripture:** King James Version preferred. Book Chapter:Verse format (e.g., John 3:16).
 
 **Formatting:** Markdown for text documents. HTML for technical specifications requiring CSS styling. PDF for final distribution.
 
-**Folder names:** Sub-projects use `{CODE}_{snake_case_name}/`. `CHR-christos_historical_review/` uses a hyphen instead — this is an exception under review and may be normalized to underscore in a future cleanup.
+**Folder names:** Sub-projects use `{CODE}_{snake_case_name}/`.
 
 ---
 
