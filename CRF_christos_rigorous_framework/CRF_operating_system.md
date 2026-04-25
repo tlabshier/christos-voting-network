@@ -2,7 +2,7 @@
 
 **Status:** **PLACEHOLDER.** This file is a naming-convention stub. The operating system itself has not yet been drafted.
 
-**Authoritative source until this file is drafted:** `journal/journal_entry_260419-01.md` — specifically sections 3 (the proposal), 4 (the convergence), and 7 (open threads).
+**Authoritative source until this file is drafted:** `journal/summary/260419_01-CRF_establishment.md` — specifically sections 3 (the proposal), 4 (the convergence), and 7 (open threads).
 
 ---
 
@@ -45,8 +45,8 @@ Whether to mirror CPP's evolved pattern (root-level `axiom-registry.md`, `theore
 ## Files to read before drafting
 
 From this sub-project:
-- `journal/journal_entry_260419-01.md` — the proposal-and-convergence session.
-- `README.md` — this sub-project's overview.
+- `journal/summary/260419_01-CRF_establishment.md` — the proposal-and-convergence session.
+- `CRF-README.md` — this sub-project's overview.
 
 From the RM repo:
 - `RM_bootup.md` — especially §7 (Seven Perspectives), §8 (key distinctions), §14 (CPP connection).
@@ -64,7 +64,7 @@ From the CPP repo (the model to *adapt*, not copy — given the three design cau
 
 ## A note to the session drafting this operating system
 
-Do not simply port the CPP operating system into CRF with ethical terms substituted. The three design commitments in `README.md` are the *soft-lensing* Thomas named in the April 19 session — they bend the physics-to-ethics analogy appropriately rather than transmitting it literally.
+Do not simply port the CPP operating system into CRF with ethical terms substituted. The three design commitments in `CRF-README.md` are the *soft-lensing* Thomas named in the April 19 session — they bend the physics-to-ethics analogy appropriately rather than transmitting it literally.
 
 The most common failure mode will be overclaim: treating ethical derivations as if they produce CPP-style unique answers. Watch for it. If the draft operating system ever implies that a CRF theorem produces a single correct action independent of situation and phronesis, it has drifted.
 

@@ -25,7 +25,8 @@ Just created. The operating system is a placeholder pending proper drafting. No 
 
 ## Read first
 
-- `journal/journal_entry_260419-01.md` — the April 19 proposal-and-convergence session that established CRF. Read this before contributing.
+- `journal/summary/260419_01-CRF_establishment.md` — the April 19 proposal-and-convergence session that established CRF. Read this before contributing.
+- `journal/transcript/` — raw conversation transcripts from the working sessions that produced the summaries. Optional context.
 - `CRF_operating_system.md` — placeholder listing the open design questions to be resolved in the drafting session.
 
 ---
@@ -55,9 +56,12 @@ CPP may be cited in CRF axioms and derivations at the ontological-ground layer (
 
 ## Folder contents (will grow)
 
-- `README.md` — this file.
+- `CRF-README.md` — this file.
 - `CRF_operating_system.md` — placeholder; to be drafted.
-- `journal/` — CPP-style record of CRF sessions. First entry is the April 19 proposal-and-convergence session.
+- `journal/` — CPP-style record of CRF sessions, in two streams:
+  - `journal/summary/` — synthesized session summaries. Filename pattern: `YYMMDD_NN-Topic.md`.
+  - `journal/transcript/` — raw conversation transcripts. Same filename pattern.
+  - `journal/journal-README.md` — journal conventions, entry index, format guide.
 
 Additional structure (axiom registry, theorem/derivation registry, defense documents, open-problems register, nomenclature) will be created through the drafting of the operating system and the first several derivations. The structure is expected to settle over three or four derivations before being formalized, mirroring CPP's own operating-system evolution.
 
@@ -65,7 +69,7 @@ Additional structure (axiom registry, theorem/derivation registry, defense docum
 
 ## Open threads for the next session
 
-See `journal/journal_entry_260419-01.md` §7. In brief: draft the operating system; sketch axiom set v0.1; attempt one concrete derivation (the Testimony-versus-Religious-Test argument from the April 18 addendum is the named candidate); let the system shape itself through three or four derivations before formalizing methodology.
+See `journal/summary/260419_01-CRF_establishment.md` §7. In brief: draft the operating system; sketch axiom set v0.1; attempt one concrete derivation (the Testimony-versus-Religious-Test argument from the April 18 addendum is the named candidate); let the system shape itself through three or four derivations before formalizing methodology.
 
 ---
 

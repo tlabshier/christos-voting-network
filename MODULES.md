@@ -29,6 +29,7 @@ Every module — including planned ones — is intended to serve the same aim: m
 | CCR  | Christos Conspiracy Review         | In repo        | Cultural engagement      | Rigorous examination of coordinated-influence claims (intentional + de facto). | `CCR_christos_conspiracy_review/`    |
 | CEA  | Christos Economic Annex            | In repo        | Cultural engagement      | Economic analysis through a Kingdom lens.                                    | `CEA_christos_economic_annex/`         |
 | CHS  | Christos Home School               | In repo        | Whole-life formation     | Educational content and lecture processing.                                  | `CHS_christos_home_school/`            |
+| CRF  | Christos Rigorous Framework        | In repo        | Foundation               | Axiom-to-theorem / axiom-to-derivation-structure system; ethical derivations from theological axioms given CPP's conscious ground. Peer sub-project that others may cite for rigorous grounding. | `CRF_christos_rigorous_framework/`     |
 | TBD  | Christos Seminar                   | Spec drafted   | Entry point              | Gateway module — 7 perspectives, video, AI engagement. Onboarding to the ecosystem. | —                               |
 | TBD  | Christos Cross-Check               | Spec drafted   | Foundation               | Bible study with AI assistance.                                              | —                                      |
 | TBD  | Christos Logos                     | Spec drafted   | Foundation               | Theological reasoning; physics-of-divine-consciousness bridge to CPP.        | —                                      |
@@ -41,7 +42,7 @@ Every module — including planned ones — is intended to serve the same aim: m
 | TBD  | Christos Life                      | Planned        | Whole-life formation     | Comprehensive life skills and personal formation.                            | —                                      |
 | TBD  | Christos Council                   | Planned        | Interfaith               | World religions examined through Christ; especially Islam.                   | —                                      |
 
-**Count:** 6 in repo (1 as deployed app, 5 as content folders) + 11 spec-drafted or planned = **17 modules total** in the current picture. Thomas has said "15 or more" and this count should be treated as provisional until he reviews.
+**Count:** 7 in repo (1 as deployed app, 5 as content folders, 1 as axiom-to-theorem framework) + 11 spec-drafted or planned = **18 modules total** in the current picture. Thomas has said "15 or more" and this count should be treated as provisional until he reviews.
 
 ---
 
