@@ -1,0 +1,427 @@
+# Excluded posts: 85
+
+[783] Foundations of Quantum Mechanics
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/?p=783
+    SIZE:   43204 bytes
+
+[1664] Quantum Tunneling: CPP Mathematical Formalism
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/?p=1664
+    SIZE:   65002 bytes
+
+[1786] latex test
+    REASON: test/junk post (size=586 bytes)
+    URL:    https://renaissance-ministries.com/2025/07/08/latex-test/
+    SIZE:   586 bytes
+
+[1874] Electron Orbital Shell Numbers
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/?p=1874
+    SIZE:   5317 bytes
+
+[1961] Speed of Light - mu and epsilon relationship
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/?p=1961
+    SIZE:   45802 bytes
+
+[2124] Conscious Point Physics - A Holistic Theory of Everything - to 4.9.4
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/?p=2124
+    SIZE:   125309 bytes
+
+[2163] Conscious Point Physics - A Holistic Physics -
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/?p=2163
+    SIZE:   85870 bytes
+
+[2221] Conscious Point Physics - Version 1.0 chapter 5-6
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/?p=2221
+    SIZE:   290476 bytes
+
+[2543] Conscious Point Physics - Version 2.0, Appendix
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/?p=2543
+    SIZE:   19249 bytes
+
+[3491] iframe template
+    REASON: test/junk post (size=449 bytes)
+    URL:    https://renaissance-ministries.com/?p=3491
+    SIZE:   449 bytes
+
+[3458] iframe template
+    REASON: test/junk post (size=301 bytes)
+    URL:    https://renaissance-ministries.com/2026/02/18/iframe-template/
+    SIZE:   301 bytes
+
+[799] The Theory of Absolutes
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/04/25/the-theory-of-absolutes/
+    SIZE:   164916 bytes
+
+[1400] Is Quantum Superposition Real
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/06/08/is-quantum-superposition-real/
+    SIZE:   125471 bytes
+
+[1516] The Conscious Point Universe Fundamental Elements
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/06/16/the-conscious-point-universe-fundamental-elements/
+    SIZE:   44693 bytes
+
+[1533] Superposition and the Dipole Sea
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/06/16/superposition-and-the-dipole-sea/
+    SIZE:   8558 bytes
+
+[1547] Quantum Chromodynamics in the Conscious Point Physics Model
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/06/18/quantum-chromodynamics-in-the-conscious-point-physics-model/
+    SIZE:   18370 bytes
+
+[1552] Conciousness and the Dual Slit Experiment Critique
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/06/19/conciousness-and-the-dual-slit-experiment-critique/
+    SIZE:   95026 bytes
+
+[1595] Quantum Point Physics and Quantum Chromodynamics - Version 2
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/06/19/quantum-point-physics-and-quantum-chromodynamics-version-2/
+    SIZE:   10089 bytes
+
+[1603] QCD and the CPP - an intuitive Explanatory Framework
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/06/19/qcd-and-the-cpp-an-intuitive-explanatory-framework/
+    SIZE:   10924 bytes
+
+[1606] Quark Dipole Dynamics in QCD, Pair Production, and the Dual Slit Experiment
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/06/20/quark-dipole-dynamics-in-qcd-pair-production-and-the-dual-slit/
+    SIZE:   66256 bytes
+
+[1620] The Conscious Point Physics Framework - Vixra Essay
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/06/21/the-conscious-point-physics-framework-vixra-1/
+    SIZE:   995862 bytes
+
+[1661] Quantum Tunneling via the CPP Model's Postulates
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/06/28/quantum-tunneling-via-the-cpp-models-postulates/
+    SIZE:   137994 bytes
+
+[1731] Black Holes and the Conscious Point Physics
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/07/05/black-holes-and-the-conscious-point-physics/
+    SIZE:   150994 bytes
+
+[1748] Quark Confinement and the Strong Force vs Distance Curve
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/07/07/quark-confinement-and-the-strong-force-vs-distance-curve/
+    SIZE:   39210 bytes
+
+[1750] Pair Production and the CPP, Matter from Energy
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/07/07/pair-production-and-the-cpp-matter-from-energy/
+    SIZE:   27432 bytes
+
+[1761] Heisenberg Uncertainty Principle and the CPP Model
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/07/07/heisenberg-uncertainty-principle-and-the-cpp-model/
+    SIZE:   81488 bytes
+
+[1764] The Standard Model Table of CPP Particle Equivalents
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/07/07/the-standard-model-table-of-cpp-particle-equivalents/
+    SIZE:   19064 bytes
+
+[1768] Mass Calibration Formula - Conventional to CPP
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/07/08/mass-calibration-formula-conventional-to-cpp/
+    SIZE:   16816 bytes
+
+[1799] The Big Bang in the Conscious Point Physics Model
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/07/09/the-big-bang-in-the-conscious-point-physics-model/
+    SIZE:   12357 bytes
+
+[2065] Conscious Point Physics - Version 1, old Part 2
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/08/13/conscious-point-physics-version-1-old-part-2/
+    SIZE:   502044 bytes
+
+[2122] Conscious Point Physics - Condensed Parts 1-5
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/08/15/conscious-point-physics-condensed-parts-1-5/
+    SIZE:   297330 bytes
+
+[2170] Conscious Point Physics - A Holistic TOE - Condensed
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/08/18/conscious-point-physics-condensed/
+    SIZE:   145010 bytes
+
+[2215] Conscious Point Physics - Cliff Notes
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/08/20/conscious-point-physics-cliff-notes/
+    SIZE:   22422 bytes
+
+[2342] Conscious Point Physics - Version 1, Part 4
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/08/27/conscious-point-physics-version-1-part-4/
+    SIZE:   307489 bytes
+
+[2361] Conscious Point Physics - Version 1, Part 3
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/08/27/conscious-point-physics-version-1-part-3/
+    SIZE:   435200 bytes
+
+[2417] Conscious Point Physics - Version 1, Part 2
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/08/30/conscious-point-physics-version-1-part-2/
+    SIZE:   561177 bytes
+
+[2454] Conscious Point Physics - Version 1, Part 5
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/09/04/conscious-point-physics-version-1-part-5/
+    SIZE:   180248 bytes
+
+[2462] Conscious Point Physics - Version 1, Part 1 - Ch 1.0 - 4.32
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/09/01/conscious-point-physics-version-1-part-1/
+    SIZE:   413785 bytes
+
+[2468] Conscious Point Physics - Journal Article
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/09/02/conscious-point-physics-journal-article/
+    SIZE:   73097 bytes
+
+[2502] Conscious Point Physics - Version 1.1, Part 1
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/09/04/conscious-point-physics-version-1-1-part-1/
+    SIZE:   140166 bytes
+
+[2526] Conscious Point Physics - Journal Article Version 2
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/09/08/conscious-point-physics-version-2/
+    SIZE:   110506 bytes
+
+[2533] Conscious Point Physics - Version 1.1, Part 4
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/09/09/conscious-point-physics-version-1-1-part-4/
+    SIZE:   228854 bytes
+
+[2569] Conscious Point Physics - Version 1.1, Part 2b
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/09/11/conscious-point-physics-version-1-1-part-2b/
+    SIZE:   422675 bytes
+
+[2572] Conscious Point Physics - Version 1.1, Part 2c
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/09/11/conscious-point-physics-version-1-1-part-2c/
+    SIZE:   233037 bytes
+
+[2580] Conscious Point Physics - Version 1.1, Part 5
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/09/11/conscious-point-physics-version-1-1-part-5/
+    SIZE:   157551 bytes
+
+[2590] Conscious Point Physics - Version 1.1 - Part 6
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/09/12/conscious-point-physics-version-1-1-part-6/
+    SIZE:   325222 bytes
+
+[2591] Conscious Point Physics - Independent Validation Protocol
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/09/12/conscious-point-physics-independent-validation-protocol/
+    SIZE:   325394 bytes
+
+[2610] CPP - Soul as the Extension of Prototypal Mind
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/09/12/cpp-soul-as-the-extension-of-prototypal-mind/
+    SIZE:   12311 bytes
+
+[2708] Conscious Point Physics - Version 1.1, Part 2d
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/09/20/conscious-point-physics-version-1-1-part-2d/
+    SIZE:   346391 bytes
+
+[2761] Conscious Point Physics - Journal Article Version 3.0
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/09/23/conscious-point-physics-version-3-0/
+    SIZE:   316631 bytes
+
+[2823] Conscious Point Physics - Version 1.1 - Part 2e
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/09/30/conscious-point-physics-version-1-1-part-2e/
+    SIZE:   352020 bytes
+
+[2825] Conscious Point Physics - Version 1.1 - Part 2f
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/09/30/conscious-point-physics-version-1-1-part-2f/
+    SIZE:   498003 bytes
+
+[2838] Conscious Point Physics - Version 4.0
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/10/04/conscious-point-physics-version-4-0/
+    SIZE:   60007 bytes
+
+[2847] Conscious Point Physics - Version 1.1 - Part 2a
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/10/04/conscious-point-physics-version-1-1-part-2a/
+    SIZE:   289083 bytes
+
+[2854] Conscious Point Physics - Version 1.1 - Part 3
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/10/04/conscious-point-physics-version-1-1-part-3/
+    SIZE:   22741 bytes
+
+[2931] Conscious Point Physics - Journal Article Version 4.1
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/10/17/conscious-point-physics-arxiv/
+    SIZE:   90570 bytes
+
+[2936] Conscious Point Physics - Version 1.1 - part 2g
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/10/19/conscious-point-physics-version-1-1-part-2g/
+    SIZE:   666413 bytes
+
+[2984] Conscious Point Physics - Journal Article Version 5
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/10/23/conscious-point-physics-vixra-article/
+    SIZE:   160302 bytes
+
+[2997] Conscious Point Physics - Version 1.1 - Part 2h
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/10/24/conscious-point-physics-version-1-1-part-2h/
+    SIZE:   413804 bytes
+
+[3063] Conscious Point Physics - Critiques
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/10/31/conscious-point-physics-critiques/
+    SIZE:   44045 bytes
+
+[3068] Conscious Point Physics - Version 1.2 - Part 1
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/03/conscious-point-physics-version-1-2-part-1/
+    SIZE:   601023 bytes
+
+[3089] Conscious Point Physics - Version 1.1 - Part 2i
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/03/conscious-point-physics-version-1-1-part-2i/
+    SIZE:   526696 bytes
+
+[3163] Conscious Point Physics - Consciousness Journal Article version 7.2
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/11/conscious-point-physics-consciousness-journal-article-version-7-2/
+    SIZE:   28413 bytes
+
+[3166] Conscious Point Physics - Consciousness Journal Article, V 7.5
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/12/conscious-point-physics-consciousness-journal-article-v7/
+    SIZE:   38208 bytes
+
+[3179] Conscious Point Physics - Consciousness Journal Article - V7.1
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/13/conscious-point-physics-consciousness-journal-article-v7-1/
+    SIZE:   27296 bytes
+
+[3195] Conscious Point Physics - Version 1.1 - Part 2j
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/14/conscious-point-physics-version-1-1-part-2j/
+    SIZE:   48037 bytes
+
+[3211] Conscious Point Physics - Version 1.1 - Part 2k
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/25/conscious-point-physics-version-1-1-part-2k/
+    SIZE:   165367 bytes
+
+[3214] Conscious Point Physics - Strong Sector - V7.3
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/25/conscious-point-physics-strong-sector-v7-3/
+    SIZE:   11257 bytes
+
+[3224] Conscious Point Physics - GitHub Repository - Vixra 17610494
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/20/conscious-point-physics-github-repository-vixra-17610494/
+    SIZE:   11686 bytes
+
+[3243] Conscious Point Physics - Post Publishing Introspection
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/21/conscious-point-physics-post-publishing-introspection/
+    SIZE:   10125 bytes
+
+[3246] CPP - Integrated - V7.6
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/23/cpp-integrated-v7-6/
+    SIZE:   18262 bytes
+
+[3248] Conscious Point Physics - Electroweak Sector - Vixra
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/25/conscious-point-physics-electroweak-sector-vixra/
+    SIZE:   12279 bytes
+
+[3257] Conscious Point Physics - Lepton Generations - Vixra 7.4
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/25/conscious-point-physics-lepton-generations-vixra-7-4/
+    SIZE:   22482 bytes
+
+[3263] Conscious Point Physics - Consciousness - V7.6
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/25/conscious-point-physics-consciousness-v7-6/
+    SIZE:   60796 bytes
+
+[3267] Conscious Point Physics - Gravity and General Relativity - Vixra
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/25/conscious-point-physics-gravity-and-general-relativity-vixra/
+    SIZE:   21912 bytes
+
+[3274] Conscious Point Physics - Dark Energy and Vacuum Energy - V 7.4
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/25/conscious-point-physics-dark-energy-and-vacuum-energy-v-7-4/
+    SIZE:   16621 bytes
+
+[3279] Conscious Point Physics - Black Holes - Vixra V7.4
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/25/conscious-point-physics-black-holes-vixra-v7-4/
+    SIZE:   16950 bytes
+
+[3283] Conscious Point Physics - Neutrino Experiment Prediction - Vixra
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/25/conscious-point-physics-neutrino-experiment-prediction-vixra/
+    SIZE:   32791 bytes
+
+[3295] Conscious Point Physics - Dark Matter and Cosmology - Vixra V7.4
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/26/conscious-point-physics-dark-matter-and-cosmology-vixra-v7-4/
+    SIZE:   16307 bytes
+
+[3303] Conscious Point Physics - Dwarf Galaxy Transformation - Vixra 7.4
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/26/conscious-point-physics-dwarf-galaxy-transformation-vixra-7-4/
+    SIZE:   17650 bytes
+
+[3305] Conscious Point Physics - 600 Cell Final Theory
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/11/26/conscious-point-physics-600-cell-final-theory/
+    SIZE:   18694 bytes
+
+[3314] CPP - Experimental Results - Articles - For Commentary
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/12/01/cpp-experimental-results-articles-for-commentary/
+    SIZE:   462131 bytes
+
+[3361] Glossary of Terms In CPP
+    REASON: title matches physics-paper pattern → CPP repo material
+    URL:    https://renaissance-ministries.com/2025/12/24/glossary-of-terms-in-cpp/
+    SIZE:   11282 bytes
+
+[3803] Deuteron Primer
+    REASON: status=trash
+    URL:    https://renaissance-ministries.com/?p=3803
+    SIZE:   6215 bytes
+
+[3817] 
+    REASON: status=trash
+    URL:    https://renaissance-ministries.com/?p=3817
+    SIZE:   7254 bytes
+
